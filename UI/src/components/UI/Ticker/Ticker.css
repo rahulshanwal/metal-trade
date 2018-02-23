@@ -1,0 +1,38 @@
+.Ticker {
+    height: 30px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    background-color: #01a3b7;
+}
+
+.TickerAnimation {
+    display: block;
+    width: 200%;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    overflow: hidden;
+
+    animation: Ticker 40s linear infinite;
+}
+
+.TickerText {
+    float: left;
+    width: 8.3%;
+}
+
+@keyframes Ticker {
+    0% { left: 100%; }
+    100% { left: -200%; }
+}
+
+.TickerParent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1101;
+}

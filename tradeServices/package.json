@@ -1,0 +1,22 @@
+{
+  "name": "tradeservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Rahul Shanwal",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^5.0.0-rc1",
+    "mongoose-auto-increment": "^5.0.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1"
+  }
+}

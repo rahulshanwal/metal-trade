@@ -1,0 +1,11 @@
+.TradeListParent {
+    border: 2px solid #01a3b7;
+    position: relative;
+    margin-right: 5px;
+    display: flex;
+}
+.TradeListParentError {
+    width: calc(100vw - 350px);
+    padding : 20px;
+    font-size: 24px;
+}
